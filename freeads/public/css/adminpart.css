@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td, tr, th {
+    /*background-color: orange;*/
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px 10px;
+}
+
+th {
+    border-bottom: 3px solid darkgrey;
+}
+
+
+td{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.pagination_wrapper{
+    max-width: 200px;
+    margin:auto;
+}
+.pagination_wrapper nav ul {
+    display: flex;
+}
+
+.pagination_wrapper nav li {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.pagination_wrapper nav li a{
+    list-style: none;
+    text-decoration: none;
+}
+.pagination_wrapper nav li[aria-current]{
+    background-color: darkgrey;
+}
+
+
+
